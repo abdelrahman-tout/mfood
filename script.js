@@ -1,6 +1,6 @@
 const menuData = [
     {
-        name: "Classic Avocado Toast",
+        name: "Classic Avocado Toasts",
         price: "$12.00",
         image: "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=300"
     },
@@ -35,4 +35,5 @@ function displayMenu() {
 }
 
 // Run the function on load
+
 displayMenu();
