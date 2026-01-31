@@ -15,14 +15,14 @@ const menuData = [
         image: "BBQ.png"
     },
     {
-        name: "Artisan Pancakes",
-        price: "$11.00",
-        image: "https://images.unsplash.com/photo-1528207776546-365bb710ee93?w=300"
+        name: "Extra Sitos",
+        price: "20.000 LBP",
+        image: "Nachos.png"
     },
     {
-        name: "Artisan Pancakes",
-        price: "$11.00",
-        image: "https://images.unsplash.com/photo-1528207776546-365bb710ee93?w=300"
+        name: "Extra Mortadella",
+        price: "50.000 LBP",
+        image: "Mortadella.png"
     }
 ];
 
@@ -42,6 +42,7 @@ function displayMenu() {
 // Run the function on load
 
 displayMenu();
+
 
 
 
