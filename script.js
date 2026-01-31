@@ -19,11 +19,13 @@ const menuData = [
     },
     {
         name: "Extra Sitos",
+        desc: "",
         price: "20.000 LBP",
         image: "Nachos.png"
     },
     {
         name: "Extra Mortadella",
+        desc: "",
         price: "50.000 LBP",
         image: "Mortadella.png"
     }
@@ -46,6 +48,7 @@ function displayMenu() {
 // Run the function on load
 
 displayMenu();
+
 
 
 
