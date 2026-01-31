@@ -2,7 +2,7 @@ const menuData = [
     {
         name: "Sweet Corn",
         price: "100.000 LBP",
-        image: "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=300"
+        image: "Sweet.png"
     },
     {
         name: "Berry Smoothie Bowl",
@@ -37,4 +37,5 @@ function displayMenu() {
 // Run the function on load
 
 displayMenu();
+
 
