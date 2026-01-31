@@ -54,6 +54,11 @@ header {
     margin: 10px 0;
     font-size: 1.4rem;
 }
+.food-desc {
+   font-weight: normal;
+    color: #e17055;
+    font-size: 0.9rem;
+}
 
 .food-price {
     font-weight: bold;
@@ -91,4 +96,5 @@ footer p {
     background-color: var(--accent-color);
     color: var(--primary-color);
     transform: scale(1.05);
+
 }
