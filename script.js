@@ -10,9 +10,14 @@ const menuData = [
         image: "Spicy.png"
     },
     {
-        name: "Garden Fresh Salad",
-        price: "$14.00",
-        image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300"
+        name: "BBQ Corn",
+        price: "150.000 LBP",
+        image: "BBQ.png"
+    },
+    {
+        name: "Artisan Pancakes",
+        price: "$11.00",
+        image: "https://images.unsplash.com/photo-1528207776546-365bb710ee93?w=300"
     },
     {
         name: "Artisan Pancakes",
@@ -37,6 +42,7 @@ function displayMenu() {
 // Run the function on load
 
 displayMenu();
+
 
 
 
