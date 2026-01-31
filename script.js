@@ -1,16 +1,19 @@
 const menuData = [
     {
         name: "Sweet Corn",
+        desc: "ذرة + بهارات",
         price: "100.000 LBP",
         image: "Sweet.png"
     },
     {
         name: "Spicy Corn",
+        desc: "ذرة + بهارات + جبنة + زبدة + شطة حرة",
         price: "150.000 LBP",
         image: "Spicy.png"
     },
     {
         name: "BBQ Corn",
+        desc: "ذرة + جبنة + زبدة + باربكيو",
         price: "150.000 LBP",
         image: "BBQ.png"
     },
@@ -34,6 +37,7 @@ function displayMenu() {
         <div class="food-card">
             <img src="${item.image}" alt="${item.name}" class="food-img">
             <h3 class="food-name">${item.name}</h3>
+            <h5 class="food-desc">${item.desc}</h3>
             <p class="food-price">${item.price}</p>
         </div>
     `).join('');
@@ -42,6 +46,7 @@ function displayMenu() {
 // Run the function on load
 
 displayMenu();
+
 
 
 
