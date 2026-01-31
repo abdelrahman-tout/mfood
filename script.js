@@ -24,10 +24,10 @@ const menuData = [
         image: "Nachos.png"
     },
     {
-        name: "Extra Mortadella",
+        name: "Extra Mozarella",
         desc: "",
         price: "50.000 LBP",
-        image: "Mortadella.png"
+        image: "Mozarella.png"
     }
 ];
 
@@ -48,6 +48,7 @@ function displayMenu() {
 // Run the function on load
 
 displayMenu();
+
 
 
 
